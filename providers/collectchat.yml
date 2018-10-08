@@ -1,0 +1,13 @@
+---
+- provider_name: Collect.chat
+  provider_url: http://collect.chat
+  endpoints:
+  - schemes:
+    - http://links.collect.chat/*
+    url: https://collect.chat/forms-embed
+    example_urls:
+    - https://collect.chat/forms-embed/?url=https://links.collect.chat/5ad9cbf6b17dad848274698a
+    - https://collect.chat/forms-embed/?url=https://links.collect.chat/5add76fdc13990bb900a1a86
+    discovery: true
+    notes: Provider only supports the 'rich' type
+...
